@@ -12,8 +12,31 @@ class CartItem extends React.Component{
         // /*second way to bind*/ this.increaseQuantity=this.increaseQuantity.bind(this);
     }
     increaseQuantity =()=> {    /*  finaly way to bind by arrow =()=>  */
-        console.log('test',this.state);
+       //console.log('test',this.state);
+        // 1st ways--> setState increase qty
+        // this.setState({
+        //     qty:this.state.qty +1
+        // });
+         // 2nd ways--> setState increase qty ----if prevState required use this way
+        this.setState((prevState)=>{
+            return{
+            qty:prevState.qty +1
+            }
+        });  
     }
+
+    decreaseQuantity =()=> {
+        const { qty }=this.state;
+        if(qty===0){
+            return;
+        }
+         this.setState((prevState)=>{
+             return{
+             qty:prevState.qty -1
+             }
+         });  
+     }
+     
     render () {
         const { price,title,qty}=this.state;
         return (
@@ -33,7 +56,11 @@ class CartItem extends React.Component{
                         onClick={this.increaseQuantity}
                         // /*first way to bind*/ onClick={this.increaseQuantity.bind(this)}
                         />
-                        <img alt="dcrease" className="action-icons" src="https://cdn-icons.flaticon.com/png/512/3876/premium/3876054.png?token=exp=1639725735~hmac=4293342cbd31e36c35a8ddd7eb1ba1bc"/>
+                        <img alt="dcrease" 
+                        className="action-icons" 
+                        src="https://cdn-icons.flaticon.com/png/512/3876/premium/3876054.png?token=exp=1639725735~hmac=4293342cbd31e36c35a8ddd7eb1ba1bc"
+                        onClick={this.decreaseQuantity}
+                        />
                         <img alt="delete" className="action-icons" src="https://cdn-icons.flaticon.com/png/512/3687/premium/3687412.png?token=exp=1639725936~hmac=6bf5f80081951e1f4ca3a147a82d6e94"/>
                     </div>
                 </div>
