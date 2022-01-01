@@ -53,18 +53,18 @@ import React from "react";
                         {/*Buttons*/}
                         <img alt="increase" 
                         className="action-icons" 
-                        src="https://cdn-icons.flaticon.com/png/512/1377/premium/1377215.png?token=exp=1639725866~hmac=7d80d3de00920e74cf63449c4ce2b77c"
+                        src="https://cdn-icons.flaticon.com/png/128/3114/premium/3114824.png?token=exp=1641022478~hmac=37c5f71a2d817b511ba8a3b4a2a61ae8"
                         onClick={()=>onIncreaseQuantity(product)}
                        // /*first way to bind*/ onClick={this.increaseQuantity.bind(this)}
                         />
                         <img alt="dcrease" 
                         className="action-icons" 
-                        src="https://cdn-icons.flaticon.com/png/512/3876/premium/3876054.png?token=exp=1639725735~hmac=4293342cbd31e36c35a8ddd7eb1ba1bc"
+                        src="https://cdn-icons.flaticon.com/png/128/2569/premium/2569198.png?token=exp=1641022541~hmac=5788bab08f89e08e01d38dc71f055d35"
                         onClick={()=>onDecreaseQuantity(product)}
                         />
                         <img alt="delete" 
                         className="action-icons" 
-                        src="https://cdn-icons.flaticon.com/png/512/3687/premium/3687412.png?token=exp=1639725936~hmac=6bf5f80081951e1f4ca3a147a82d6e94"
+                        src="https://cdn-icons.flaticon.com/png/128/6096/premium/6096937.png?token=exp=1641022579~hmac=30bbf717530d20e144d3cc9b61551b67"
                         onClick={()=>onDeleteProduct(product.id)}
                         />
                     </div>
