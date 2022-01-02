@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+//import * as serviceWorker from "./serviceWorker";
+import firebase from "firebase/app";
+import "firebase/firestore";
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
+//import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: "AIzaSyAw8UOb3-M24BxRbGYNtW0DKeiYPsAnUNM",
   authDomain: "cart-ffa39.firebaseapp.com",
@@ -14,9 +17,10 @@ const firebaseConfig = {
   appId: "1:134845748389:web:b2cd2d0d36de28fd57694c"
 };
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(
     <App />,
   document.getElementById('root')
 );
+//serviceWorker.unregister();
