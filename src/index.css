@@ -10,6 +10,12 @@ body {
 .cart-item {
   display: inline-flex;
   margin: 20px 10px;
+  background: linear-gradient(to right, #757f9a, #d7dde8);
+  height: 18vh;
+  width: 20vw;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5PX;
 }
 .cart-item .right-block {
   padding: 0 20px;
@@ -27,6 +33,7 @@ body {
 }
 
 .cart{
-  display: flex;
-  flex-direction:column;
+  display: inline-block;
+  background-color: white;
+  
 }

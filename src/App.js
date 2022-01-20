@@ -153,7 +153,7 @@ addProduct = () => {
         onDeleteProduct={this.handleDeleteProduct}
         />
         {loading && <h1>Loading Products...</h1>}
-       <div style={ {padding: 10, fontSize: 20} }>TOTAL: {this.getCartTotal()} </div>
+       <div style={ {padding: 20, fontSize: 25,backgroundColor:'#0082c8'} }>TOTAL: {this.getCartTotal()} </div>
       </div>
     );
   }

@@ -47,24 +47,24 @@ import React from "react";
             </div>
                 <div className="right-block">
                     <div style={{fontSize:25 }}>{title}</div>
-                    <div style={{color: '#777' }}>Rs {price}</div>
-                    <div style={{color: '#777'}}>Qty: {qty}</div>
+                    <div style={{color: 'white',fontWeight:'bolder' }}>Rs {price}</div>
+                    <div style={{color: '#777',fontWeight:'bolder'}}>Qty: {qty}</div>
                     <div className="cart-item-actions">
                         {/*Buttons*/}
                         <img alt="increase" 
                         className="action-icons" 
-                        src="https://cdn-icons.flaticon.com/png/128/3114/premium/3114824.png?token=exp=1641022478~hmac=37c5f71a2d817b511ba8a3b4a2a61ae8"
+                        src="https://cdn-icons.flaticon.com/png/512/3876/premium/3876052.png?token=exp=1642699762~hmac=3db1973cd69a29928792c5a3d0c6d52e"
                         onClick={()=>onIncreaseQuantity(product)}
                        // /*first way to bind*/ onClick={this.increaseQuantity.bind(this)}
                         />
                         <img alt="dcrease" 
                         className="action-icons" 
-                        src="https://cdn-icons.flaticon.com/png/128/2569/premium/2569198.png?token=exp=1641022541~hmac=5788bab08f89e08e01d38dc71f055d35"
+                        src="https://cdn-icons.flaticon.com/png/512/3876/premium/3876054.png?token=exp=1642699645~hmac=d9acf55b8557c922a36c1126543c07ae"
                         onClick={()=>onDecreaseQuantity(product)}
                         />
                         <img alt="delete" 
                         className="action-icons" 
-                        src="https://cdn-icons.flaticon.com/png/128/6096/premium/6096937.png?token=exp=1641022579~hmac=30bbf717530d20e144d3cc9b61551b67"
+                        src="https://cdn-icons.flaticon.com/png/512/6096/premium/6096937.png?token=exp=1642699792~hmac=0d6773481e0180dbe26c696c09ff1c00"
                         onClick={()=>onDeleteProduct(product.id)}
                         />
                     </div>
