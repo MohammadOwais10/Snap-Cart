@@ -15,9 +15,7 @@ Simple Shopping Cart web page.
 
 ## Tools Used
 
-<img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" height="100px"   alt="React"> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" height="100px" alt="Node">
-<img src="https://miro.medium.com/max/1024/1*oT_l6QxMdTN65-0gwFqeNg.png" height="120px"  alt="Firebase">
+<img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" height="100px"   alt="React">  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" height="100px" alt="Node">  <img src="https://miro.medium.com/max/1024/1*oT_l6QxMdTN65-0gwFqeNg.png" height="120px"  alt="Firebase">
 
 1. React Js
 2. Node Js
@@ -26,10 +24,10 @@ Simple Shopping Cart web page.
 ## UI Screenshot
 
 - Cart UI Design
-  ![UI-Cart-Image](/cart/ss%20ui/Cart%20UI.PNG)
+  ![UI-Cart-Image](/ss%20ui/Cart%20UI.PNG)
 
 - Cart UI Design Responsive
-  ![UI-Cart-Image](</cart/ss%20ui/Cart%20UI(2).PNG>)
+  ![UI-Cart-Image](/ss%20ui/Cart%20UI(2).PNG)
 
 ## Available Scripts
 
