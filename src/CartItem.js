@@ -44,11 +44,12 @@ const CartItem = (props) => {
   return (
     <div className="cart-item">
       <div className="left-block">
-        <img style={styles.image} src={product.img} />
+        {/* <img style={styles.image} src={product.img} /> */}
+        <img src={product.img} />
       </div>
       <div className="right-block">
         <div style={{ fontSize: 25 }}>{title}</div>
-        <div style={{ color: "white", fontWeight: "bolder" }}>Rs {price}</div>
+        <div style={{ color: "grey", fontWeight: "bolder" }}>Rs {price}</div>
         <div style={{ color: "#777", fontWeight: "bolder" }}>Qty: {qty}</div>
         <div className="cart-item-actions">
           {/*Buttons*/}
@@ -78,13 +79,13 @@ const CartItem = (props) => {
   );
 };
 
-const styles = {
-  image: {
-    height: 110,
-    width: 110,
-    borderRadius: 4,
-    background: "#ccc",
-  },
-};
+// const styles = {
+//   image: {
+//     height: 200,
+//     width: 200,
+//     borderRadius: 4,
+//     background: "#ccc",
+//   },
+// };
 
 export default CartItem;

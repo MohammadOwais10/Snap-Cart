@@ -3,7 +3,9 @@ import React from "react";
 const Navbar = (props) => {
   return (
     <div style={styles.nav}>
-      <h1 style={{ font: 20, color: "yellow", textAlign: "center" }}>Cart</h1>
+      <h1 style={{ font: 20, color: "white", textAlign: "center" }}>
+        SNAP CART
+      </h1>
       <div style={styles.cartIconContainer}>
         <img
           style={styles.cartIcon}
@@ -22,11 +24,10 @@ const styles = {
     marginRight: 20,
   },
   nav: {
-    height: 70,
-    background: "linear-gradient(to right, #8e2de2, #4a00e0)",
+    height: 60,
+    background: "linear-gradient(to right, #ff0084, #33001b)",
     display: "flex",
     justifyContent: "center",
-    //justifyContent: 'flex-end',
     alignItems: "center",
     padding: 10,
   },
@@ -35,6 +36,7 @@ const styles = {
   },
   cartCount: {
     background: "yellow",
+    fontWeight: "bolder",
     borderRadius: "50%",
     padding: "4px 8px",
     position: "absolute",
