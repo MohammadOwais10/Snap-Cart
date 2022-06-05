@@ -1,8 +1,39 @@
-# Getting Started with Create React App
+# Snap Cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Shopping Cart web page.
+
+## Features
+
+1. Increase a product's quantity.
+2. Decrease a product's quantity.
+3. Display the number of items in the cart.
+4. Display of total price of cart items.
+5. Data won't be lost after refreshing the page (Database used).
+6. Delete the product's.
+7. Add the product's.
+8. Real time data synchronization with database i.e. data gets updated upon Increasing/Decreasing/deleting a product from the cart in real time. (Cloud based Database)
+
+## Tools Used
+
+<img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" height="100px"   alt="React"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" height="100px" alt="Node">
+<img src="https://miro.medium.com/max/1024/1*oT_l6QxMdTN65-0gwFqeNg.png" height="120px"  alt="Firebase">
+
+1. React Js
+2. Node Js
+3. Firebase
+
+## UI Screenshot
+
+- Cart UI Design
+  ![UI-Cart-Image](/cart/ss%20ui/Cart%20UI.PNG)
+
+- Cart UI Design Responsive
+  ![UI-Cart-Image](</cart/ss%20ui/Cart%20UI(2).PNG>)
 
 ## Available Scripts
+
+#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
